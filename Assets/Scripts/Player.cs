@@ -34,6 +34,12 @@ public class Player : MonoBehaviour {
         if (Input.GetButton("Jump") && onGround)
         {
             jump = true;
+            animator.SetBool("IsJumping", true);
+        }
+
+        if (!onGround && animator.GetBool("IsJumping"))
+        {
+            animator.SetBool("IsJumping", false);
         }
     }
 

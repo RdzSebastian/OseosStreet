@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: 5c35c63b029f64f4d84e79a97600c0ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7247302163703025594
+    second: Pola full sheet_0
+  - first:
+      213: -6775942226340584283
+    second: Pola full sheet_1
+  - first:
+      213: 6477308975528115255
+    second: Pola full sheet_2
+  - first:
+      213: -3587402485559216218
+    second: Pola full sheet_3
+  - first:
+      213: -369225768574278166
+    second: Pola full sheet_4
+  - first:
+      213: -7152439912335425126
+    second: Pola full sheet_5
+  - first:
+      213: 5943314813633234912
+    second: Pola full sheet_6
+  - first:
+      213: -1266842589931561544
+    second: Pola full sheet_7
+  - first:
+      213: 4876680799508546161
+    second: Pola full sheet_8
+  - first:
+      213: -6849439204380701649
+    second: Pola full sheet_9
+  - first:
+      213: 8321931271019049857
+    second: Pola full sheet_10
+  - first:
+      213: 6232889620372533342
+    second: Pola full sheet_11
+  - first:
+      213: 7751260804718315503
+    second: Pola full sheet_12
+  - first:
+      213: 2064271662445842822
+    second: Pola full sheet_13
+  - first:
+      213: -4846327430218509798
+    second: Pola full sheet_14
+  - first:
+      213: -737979885598134743
+    second: Pola full sheet_15
+  - first:
+      213: -2558202861879515661
+    second: Pola full sheet_16
+  - first:
+      213: 2132783186336880011
+    second: Pola full sheet_17
+  - first:
+      213: 782049843736757897
+    second: Pola full sheet_18
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pola full sheet_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 816
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40208745e5323a04083fc4dd6d0f8438
+      internalID: -7247302163703025594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 816
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b2b40f269961c4081e73cdb5472618
+      internalID: -6775942226340584283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 731
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbb8ee7cde4db245a1b5840d1f7e9a8
+      internalID: 6477308975528115255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 731
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea09515283b1ae14787b0b64be069491
+      internalID: -3587402485559216218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 731
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888a0b19bd4a96f4f9ec88da0f152a0c
+      internalID: -369225768574278166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 646
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d871570a33840444ba9eeab92cdbcd0
+      internalID: -7152439912335425126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 646
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089a9dac9cbcca243bd8898424aa3d32
+      internalID: 5943314813633234912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 646
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdca7a891ffc064db2a9d649c10c07c
+      internalID: -1266842589931561544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 646
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0ca1cd239167e49bc09b6b2b5ec3e9
+      internalID: 4876680799508546161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 476
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b518a2ce682944e971d3be126934e8
+      internalID: -6849439204380701649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 561
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664349cdcbf7e7a469eb9fbf36c451fe
+      internalID: 8321931271019049857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 561
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7419d6276c8a04390d659bf06fbc2e
+      internalID: 6232889620372533342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 476
+        width: 25
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa93e81f6fd7ae45954bccd48cea64f
+      internalID: 7751260804718315503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 561
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39883598423e0148a545f150445f57d
+      internalID: 2064271662445842822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 561
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5873baad18f091e41bbdf6a897a122e4
+      internalID: -4846327430218509798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_15
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 561
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e917eec297d97ff4b96f151277e73e42
+      internalID: -737979885598134743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_16
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 561
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6751d98fa06c6ad48a6628316b435bd6
+      internalID: -2558202861879515661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_17
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 561
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabbb669c23ef814e9d800b73a4b1aff
+      internalID: 2132783186336880011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pola full sheet_18
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 561
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cd79e45780a8b4f9cde253311345fa
+      internalID: 782049843736757897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 34337e0432158af4fbf324b5fc62936c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

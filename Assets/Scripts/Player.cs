@@ -1,89 +1,114 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour {
-
-    public float maxSpeed = 4f;
-    public float jumpForce = 400f;
-
+public class Player : MonoBehaviour
+{
+    public float maxSpeed = 4;
+	public float jumpForce = 400;
+    public float minHeight, maxHeight;
+    
     private float currentSpeed;
     private Rigidbody rb;
-    public Animator animator;
+	private Animator anim;
     private Transform groundCheck;
-    private bool onGround;
+	private bool onGround;
     private bool isDead = false;
     private bool facingRight = true;
     private bool jump = false;
+
+
+
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        animator = GetComponent<Animator>();
-        groundCheck = gameObject.transform.Find("GroundCheck");
+		anim = GetComponent<Animator>();
+		groundCheck = gameObject.transform.Find("GroundCheck");
         currentSpeed = maxSpeed;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        onGround = Physics.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
+    	onGround = Physics.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
 
-        if (Input.GetButton("Jump") && onGround)
-        {
-            jump = true;
-            animator.SetBool("IsJumping", true);
-        }
+        anim.SetBool("OnGround", onGround);
+		anim.SetBool("Dead", isDead);
 
-        if (!onGround && animator.GetBool("IsJumping"))
-        {
-            animator.SetBool("IsJumping", false);
-        }
+    	if(Input.GetButtonDown("Jump") && onGround)
+		{
+			jump = true;
+		}
+
+        if (Input.GetButtonDown("Fire1"))
+		{
+			anim.SetTrigger("Attack");
+		}
     }
+
 
     private void FixedUpdate()
-    {
-        if (!isDead)
-        {
-            float horizontalMove = Input.GetAxis("Horizontal");
-            float verticalMove = Input.GetAxis("Vertical");
+	{
+		if (!isDead)
+		{
+			float h = Input.GetAxis("Horizontal");
+			float z = Input.GetAxis("Vertical");
 
-            animator.SetFloat("Speed", Math.Abs(horizontalMove) + Math.Abs(verticalMove));
-
+            if (currentSpeed == 0)
+                ResetSpeed();
 
             if (!onGround)
-            {
-                verticalMove = 0;
-            }
+				z = 0;
 
-            rb.velocity = new Vector3(horizontalMove * currentSpeed, rb.velocity.y, verticalMove * currentSpeed);
+            rb.velocity = new Vector3(h * currentSpeed, rb.velocity.y, z * currentSpeed);
+			
+        	if (onGround)
+				anim.SetFloat("Speed", Mathf.Abs(rb.velocity.magnitude));
 
-            if(horizontalMove > 0 && !facingRight)
-            {
-                Flip();
-            }
-            else if (horizontalMove < 0 && facingRight)
-            {
-                Flip();
-            }
+            if(h > 0 && !facingRight)
+			{
+				Flip();
+			}
+			else if(h < 0 && facingRight)
+			{
+				Flip();
+			}
 
             if (jump)
-            {
-                jump = false;
-                rb.AddForce(Vector3.up * jumpForce);
-            }
+			{
+				jump = false;
+				rb.AddForce(Vector3.up * jumpForce);
+				//PlaySong(jumpSound);
+			}
+        
+			float minWidth = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 10)).x;
+			float maxWidth = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 10)).x;
+			rb.position = new Vector3(Mathf.Clamp(rb.position.x, minWidth + 1, maxWidth - 1),
+				rb.position.y,
+				Mathf.Clamp(rb.position.z, minHeight, maxHeight));
         }
-
     }
 
-    private void Flip()
-    {
-        facingRight = !facingRight;
+    void Flip()
+	{
+		facingRight = !facingRight;
 
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
-    }
+		Vector3 scale = transform.localScale;
+		scale.x *= -1;
+		transform.localScale = scale;
+	}
+
+    void ZeroSpeed()
+	{
+		currentSpeed = 0;
+	}
+
+	void ResetSpeed()
+	{
+		currentSpeed = maxSpeed;
+	}
+
 }
